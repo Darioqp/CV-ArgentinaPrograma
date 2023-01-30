@@ -23,6 +23,8 @@
   </head>
   <body>
 
+    <!-- Sección principal donde se encuentran los iconos que direccionan a las diferentes secciones de la página -->
+
     <main>
       <div class="container-fluid">
         <header>
@@ -33,21 +35,21 @@
               <div class="row">
                 <div class="col-4 text-center">
                   <!-- Colocar los a para los enlaces -->
-                  <a href="#">
+                  <a href="#about">
                     <img class="img-link" src="/images/aboutMe.png" alt="">
                   </a>
-                  <figure>About me</figure>
+                  <figure>About</figure>
 
                 </div>
                 <div class="col-4 text-center">
-                  <a href="#">
+                  <a href="#education">
                     <img class="img-link" src="/images/education.png" alt="">
                   </a>
                   <figure>Education</figure>
 
                 </div>
                 <div class="col-4 text-center">
-                  <a href="#">
+                  <a href="#experience">
                     <img class="img-link" src="/images/work-experience.png" alt="">
                   </a>
                   <figure>Work experience</figure>
@@ -56,24 +58,24 @@
               </div>
               <div class="row">
                 <div class="col-4 text-center">
-                  <a href="#">
+                  <a href="#proyects">
                     <img class="img-link" src="/images/my-work.png" alt="">
                   </a>
-                  <figure>My work</figure>
+                  <figure>Proyects</figure>
 
                 </div>
                 <div class="col-4 text-center">
-                  <a href="#">
+                  <a href="#skills">
                     <img class="img-link" src="/images/skills.png" alt="">
                   </a>
                   <figure>Skills</figure>
 
                 </div>
                 <div class="col-4 text-center">
-                  <a href="#">
+                  <a href="#contact">
                     <img class="img-link" src="/images/contact.png" alt="">
                   </a>
-                  <figure>Contact me</figure>
+                  <figure>Contact</figure>
 
                 </div>
               </div>
@@ -90,6 +92,75 @@
       </div>
     </main>
 
+    <!-- Sección About -->
+
+    <section id="about">
+      <div class="d-flex position-relative container">
+        <img src="/images/foto.jpeg" class="flex-shrink-0 me-3" id="img-about" alt="imagen de dario kupec">
+        <div class="caja-about">
+          <h5 class="mt-0 title-about">Dario Kupec</h5>
+          <p class="text-about">I am a Junior web developer in JavaScript with two years of experience in
+            frontend web development. As a math teacher, I have an analytical mind and I enjoy finding solutions to problems.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección educación -->
+
+    <section id="education">
+      <div class="container">
+        <img src="/images/famaf.jpg" class="mx-auto d-block" id="img-education" alt="imagen de la Facultad de Matemática Astronomía Física y Computación">
+        <figure class="text-center"><i>Image of Famaf</i></figure>
+      </div>
+      <div class="container">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <strong class="h5">Secundary School</strong>
+                
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>I studied at the Escuela Secundaria Normal Superior Villa Elisa, with the title of high school graduate specializing in Physical and Mathematical Sciences.</strong> 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <strong class="h5">University degree</strong>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>I earned my mathematics professor degree after completing my studies at the Faculty of Mathematics, Astronomy, Physics, and Computing (Famaf).</strong>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <strong class="h5">Current studies</strong>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Currently, I am enrolled in the Argentina 4.0 Frontend Web Developer program.</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de la experiencia laboral -->
+
+    <section id="experience"></section>
+    <section id="proyects"></section>
+    <section id="skills"></section>
+    <section id="contact"></section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
