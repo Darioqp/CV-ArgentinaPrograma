@@ -110,7 +110,7 @@ h2 {
 
 .form {
     width: 50%;
-    background-color: #BDAED3;
+    background-color: #dfd6ec;
     padding: 1rem;
     border-radius: 5px;
 }
@@ -130,3 +130,20 @@ h2 {
     font-weight: bold;
 }
 
+.boton {
+    margin-bottom: 1em;
+    background-color: #7A609E;
+    border-radius: 10px;
+    width: 20%;
+    cursor: pointer;
+    padding: 0.5em;
+    font-size: 1em;
+    text-align: center;
+    border: none;
+    transition: 1s all;
+}
+
+.boton:hover {
+    background-color: #664e87;
+    transform: scale(1.1);
+}
