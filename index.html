@@ -364,7 +364,26 @@
 
     <!-- Sección de contacto -->
 
-    <section id="contact"></section>
+    <section id="contact">
+      <div class="container">
+        <h2 class="fst-italic h2 my-3">Contact form</h2>
+        <form class="form mx-auto" action="">
+          <label for="nombre" class="label-texto">Name: </label>
+          <input type="text" class="input-text" id="nombre" placeholder="Enter your name" required />
+          <label for="apellido" class="label-texto">Last name: </label>
+          <input type="text" class="input-text" id="apellido" placeholder="Enter your last name" required />
+          <label for="asunto" class="label-texto">Subject: </label>
+          <input type="text" class="input-text" name="asunto" id="asunto" placeholder="Subject" required />
+          <label for="email" class="label-texto">Email: </label>
+          <input type="email" class="input-text" name="" id="email" placeholder="example@dominio.com" required />
+          <label for="caja-texto" class="label-texto">Comments:</label>
+          <textarea name="" class="input-text" id="caja-texto" cols="30" rows="10" placeholder="Enter your comment ..."></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer></footer>
 
     <!-- Script de bootstrap -->
 

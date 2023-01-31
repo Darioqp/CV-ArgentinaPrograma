@@ -107,3 +107,26 @@ h2 {
 #skills {
     margin: 2rem;
 }
+
+.form {
+    width: 50%;
+    background-color: #BDAED3;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.input-text {
+    display: block;
+    margin-bottom: 0.5em;
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.label-texto {
+    display: block;
+    font-size: 1.2em;
+    padding: 0.5em 0;
+    font-weight: bold;
+}
+
