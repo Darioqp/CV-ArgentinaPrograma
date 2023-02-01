@@ -95,12 +95,26 @@
     <!-- Sección About -->
 
     <section id="about">
+      <h2 class="fst-italic h2 pt-2">About</h2>
+
       <div class="d-flex position-relative container">
         <img src="images/foto.jpeg" class="flex-shrink-0 me-3" id="img-about" alt="imagen de dario kupec">
         <div class="caja-about">
           <h5 class="mt-0 title-about">Dario Kupec</h5>
-          <p class="text-about">I am a Junior web developer in JavaScript with two years of experience in
-            frontend web development. As a math teacher, I have an analytical mind and I enjoy finding solutions to problems.</p>
+          <p class="text-about">I am a Junior web developer in JavaScript with two years of experience in frontend web development. <br> As a math teacher, I have an analytical mind and I enjoy finding solutions to problems. <br> I also work creating websites with WordPress. <br> Most of my programming education has been self-taught.</p>
+          
+          <button id="boton-like" type="button" class="btn btn-color">
+            <i class="bi bi-hand-thumbs-up pe-3 icon-color"></i> <span id="number" class="badge"></span>
+          </button>
+          <button id="boton-bold" type="button" class="btn btn-color">
+            <i class="bi bi-type-bold icon-color"></i>
+          </button>
+          <button id="boton-italic" type="button" class="btn btn-color">
+            <i class="bi bi-type-italic icon-color"></i>
+          </button>
+          <button id="boton-under" type="button" class="btn btn-color">
+            <i class="bi bi-type-underline icon-color"></i>
+          </button>
         </div>
       </div>
     </section>
@@ -109,7 +123,7 @@
 
     <section id="education">
       <div class="container">
-        <h2 class="fst-italic h2 my-3">Education</h2>
+        <h2 class="fst-italic h2 py-3">Education</h2>
         <img src="images/famaf.jpg" class="mx-auto d-block" id="img-education" alt="imagen de la Facultad de Matemática Astronomía Física y Computación">
         <figure class="text-center"><i>Image of Famaf</i></figure>
       </div>
@@ -124,7 +138,7 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>I studied at the Escuela Secundaria Normal Superior Villa Elisa, with the title of high school graduate specializing in Physical and Mathematical Sciences.</strong> 
+                <strong>I studied at the Escuela Secundaria Normal Superior Villa Elisa, with the title of high school graduate specializing in Physical and Mathematical Sciences. (Entre Ríos, Argentina)</strong> 
               </div>
             </div>
           </div>
@@ -136,7 +150,7 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>I earned my mathematics professor degree after completing my studies at the Faculty of Mathematics, Astronomy, Physics, and Computing (Famaf).</strong>
+                <strong>I earned my mathematics professor degree after completing my studies at the Faculty of Mathematics, Astronomy, Physics, and Computing (Famaf, Córdoba, Argentina).</strong>
               </div>
             </div>
           </div>
@@ -160,14 +174,14 @@
 
     <section id="experience">
       <div class="container text-center">
-      <h2 class="fst-italic h2 my-3">Work experience</h2>
+      <h2 class="fst-italic h2 my-4">Work experience</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
 
         <!-- card itr -->
 
           <div class="col">
             <div class="card h-100">
-              <img src="images/itr.png" class="card-img-top w-75 mx-auto p-2" alt="logotipo del Instituto Técnico Renault">
+              <img src="images/itr.png" id="img-itr" class="card-img-top w-75 mx-auto" alt="logotipo del Instituto Técnico Renault">
               <div class="card-body">
                 <h5 class="card-title">Instituto Técnico Renault</h5>
                 <p class="card-text">I worked at this beautiful school from 2018 to 2022 as a math teacher for 4th and 5th grade classes.</p>
@@ -180,7 +194,7 @@
 
           <div class="col">
             <div class="card h-100">
-              <img src="images/frontend.jpg" class="card-img-top w-75 mx-auto p-2" alt="imagen de Html Css y JavaScript">
+              <img src="images/frontend.jpg" class="card-img-top w-75 mx-auto" alt="imagen de Html Css y JavaScript">
               <div class="card-body">
                 <h5 class="card-title">Web development teacher</h5>
                 <p class="card-text">I taught front-end web development from 2020 to 2022 at IPEM 123 Blanca Etchemendy school.</p>
@@ -193,7 +207,7 @@
 
           <div class="col">
             <div class="card h-100">
-              <img src="images/card-freelance.jpg" class="card-img-top w-75 mx-auto p-2" alt="Imagen de Dario Kupec">
+              <img src="images/card-freelance.jpg" class="card-img-top w-75 mx-auto" alt="Imagen de Dario Kupec">
               <div class="card-body">
                 <h5 class="card-title">Freelance</h5>
                 <p class="card-text">I work as a freelance web developer using WordPress.</p>
@@ -217,7 +231,7 @@
         <!-- Encriptador -->
 
           <div class="col">
-            <a href="https://darioqp.github.io/encriptador/" target="_blank">
+            <a href="https://darioqp.github.io/encriptador/" target="_blank" class="link-proyects">
             <div class="card h-100">
               <img src="images/encriptador.png" class="card-img-top" alt="proyect">
               
@@ -232,7 +246,7 @@
           <!-- Tutorias Atenea -->
 
           <div class="col">
-            <a href="https://dariokupec.com/" target="_blank">
+            <a href="https://dariokupec.com/" target="_blank" class="link-proyects">
             <div class="card h-100">
               <img src="images/tutorias.png" class="card-img-top" alt="proyect">
               
@@ -247,7 +261,7 @@
           <!-- Barberia La Roca -->
 
           <div class="col">
-            <a href="https://darioqp.github.io/Barberia-LaRoca/" target="_blank">
+            <a href="https://darioqp.github.io/Barberia-LaRoca/" target="_blank" class="link-proyects">
             <div class="card h-100">
               <img src="images/barberia.png" class="card-img-top" alt="proyect">
               
@@ -258,14 +272,15 @@
             </div>
             </a>
           </div>
+
         </div>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4 text-center my-1">
+        <div id="row2" class="row row-cols-1 row-cols-md-3 g-4 text-center my-1">
         
           <!-- Formulario de contacto -->
 
           <div class="col">
-            <a href="https://darioqp.github.io/FreeCodeCampSurveyForm/" target="_blank">
+            <a href="https://darioqp.github.io/FreeCodeCampSurveyForm/" target="_blank" class="link-proyects">
             <div class="card h-100">
               <img src="images/form.png" class="card-img-top" alt="proyect">
 
@@ -279,7 +294,7 @@
           <!-- Buscador de imagenes -->
 
           <div class="col">
-            <a href="https://darioqp.github.io/Buscador/" target="_blank">
+            <a href="https://darioqp.github.io/Buscador/" target="_blank" class="link-proyects">
             <div class="card h-100">
               <img src="images/buscador.png" class="card-img-top" alt="proyect">
 
@@ -293,7 +308,7 @@
           <!-- Argentina Programa -->
 
           <div class="col">
-            <a href="https://darioqp.github.io/maquetaArgPrograma/" target="_blank">
+            <a href="https://darioqp.github.io/maquetaArgPrograma/" target="_blank" class="link-proyects">
             <div class="card h-100">
               <img src="images/argPrograma.png" class="card-img-top" alt="proyect">
 
@@ -306,6 +321,10 @@
 
 
         </div>
+
+        <button type="button" id="btn-mostrar" class="text-center">Load more</button>
+        <button type="button" id="btn-ocultar" class="text-center">Load less</button>
+
       </div>
     </section>
 
@@ -387,7 +406,11 @@
       </div>
     </section>
 
-    <footer></footer>
+    <footer>
+      <p>
+        Copyright &copy; Dario Kupec - 2023.
+      </p>
+    </footer>
 
     <!-- Script de bootstrap -->
 
